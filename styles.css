@@ -10,9 +10,51 @@ body {
 header {
     background: linear-gradient(135deg, #a8c0ff, #3f2b96);
     color: white;
-    padding: 40px 20px;
+    padding: 20px;
     font-size: 1.5rem;
     font-weight: bold;
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: #f0f0f0;
+}
+
+.hidden {
+    display: none;
 }
 
 .cta-button {
@@ -43,14 +85,13 @@ h2 {
     margin-bottom: 15px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    font-size: 1.2rem;
-    margin: 10px 0;
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
 }
 
 #signup {

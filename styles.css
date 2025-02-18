@@ -54,7 +54,11 @@ nav ul li:hover {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
+}
+
+.show-menu {
+    display: block !important;
 }
 
 .cta-button {

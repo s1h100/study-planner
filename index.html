@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Planner AI - Smarter Studying</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
         <h1>Study Planner AI</h1>
-        <p>Your AI-powered study assistant for better time management and smarter learning.</p>
         <nav>
-            <ul>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul id="nav-menu" class="hidden">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <a href="#signup" class="cta-button">Get Early Access</a>
@@ -26,6 +30,22 @@
             <li>📅 Personalized study planner & calendar sync</li>
             <li>⏳ Smart scheduling & deadline tracking</li>
         </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Students Are Saying</h2>
+        <div class="testimonial">
+            <p>"This study planner has completely transformed how I manage my time! Highly recommend."</p>
+            <p>- Sarah L., College Student</p>
+        </div>
+        <div class="testimonial">
+            <p>"The AI-generated study notes save me so much time. I love it!"</p>
+            <p>- James T., High School Senior</p>
+        </div>
+        <div class="testimonial">
+            <p>"A game-changer for students! The planner adapts to my schedule perfectly."</p>
+            <p>- Emily R., University Student</p>
+        </div>
     </section>
 
     <section id="signup">

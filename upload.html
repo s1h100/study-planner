@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Study Materials - Study Planner AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Upload Your Study Materials</h1>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul id="nav-menu" class="hidden">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="upload.html">Upload Documents</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="upload">
+        <h2>Upload Your Study Materials</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <input type="file" name="studyMaterials" accept=".pdf, .doc, .docx, .txt" multiple required>
+            <button type="submit">Upload Files</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Study Planner AI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
